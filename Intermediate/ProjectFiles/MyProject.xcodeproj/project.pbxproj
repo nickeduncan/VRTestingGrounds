@@ -26,6 +26,11 @@
 		BFFA46DEA5EFDE03A16D2863 /* MyProjectHUD.h in Sources */ = {isa = PBXBuildFile; fileRef = 2DE4CEEE2DD64C31075459CA /* MyProjectHUD.h */; };
 		91B5199E541A57CD514C3849 /* MyProjectProjectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDF8217A42E05F750BAE834B /* MyProjectProjectile.cpp */; };
 		99A41BA6F44E276AA17B4DF0 /* MyProjectProjectile.h in Sources */ = {isa = PBXBuildFile; fileRef = D53FAF86165A12E0AC842134 /* MyProjectProjectile.h */; };
+		B5D2EF26F5E4BEE231CD05B0 /* TP_ThirdPerson.h in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D80224CEA851AB30A402 /* TP_ThirdPerson.h */; };
+		31D85FB19CA29F1582E6F022 /* TP_ThirdPersonCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F0075BCBC6ABE073AFE8865 /* TP_ThirdPersonCharacter.cpp */; };
+		8110BCDDDCD089842DECF51C /* TP_ThirdPersonCharacter.h in Sources */ = {isa = PBXBuildFile; fileRef = 850D468E2EEF2D17C0B6A223 /* TP_ThirdPersonCharacter.h */; };
+		59EB9440729CC73250F92F8B /* TP_ThirdPersonGameMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C138B25D6CF4720B5837AF /* TP_ThirdPersonGameMode.cpp */; };
+		232FD94AD170A4CB6D9884F0 /* TP_ThirdPersonGameMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 3B48129125C2CB8BDEBAA86C /* TP_ThirdPersonGameMode.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,11 +53,16 @@
 		2DE4CEEE2DD64C31075459CA /* MyProjectHUD.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MyProjectHUD.h"; path = "../../Source/MyProject/MyProjectHUD.h"; sourceTree = SOURCE_ROOT; };
 		CDF8217A42E05F750BAE834B /* MyProjectProjectile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MyProjectProjectile.cpp"; path = "../../Source/MyProject/MyProjectProjectile.cpp"; sourceTree = SOURCE_ROOT; };
 		D53FAF86165A12E0AC842134 /* MyProjectProjectile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MyProjectProjectile.h"; path = "../../Source/MyProject/MyProjectProjectile.h"; sourceTree = SOURCE_ROOT; };
-		C200AB93930D99258BDFE6BD /* MyProject */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = MyProject; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB1D80224CEA851AB30A402 /* TP_ThirdPerson.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TP_ThirdPerson.h"; path = "../../Source/MyProject/TP_ThirdPerson/TP_ThirdPerson.h"; sourceTree = SOURCE_ROOT; };
+		5F0075BCBC6ABE073AFE8865 /* TP_ThirdPersonCharacter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "TP_ThirdPersonCharacter.cpp"; path = "../../Source/MyProject/TP_ThirdPerson/TP_ThirdPersonCharacter.cpp"; sourceTree = SOURCE_ROOT; };
+		850D468E2EEF2D17C0B6A223 /* TP_ThirdPersonCharacter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TP_ThirdPersonCharacter.h"; path = "../../Source/MyProject/TP_ThirdPerson/TP_ThirdPersonCharacter.h"; sourceTree = SOURCE_ROOT; };
+		E6C138B25D6CF4720B5837AF /* TP_ThirdPersonGameMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "TP_ThirdPersonGameMode.cpp"; path = "../../Source/MyProject/TP_ThirdPerson/TP_ThirdPersonGameMode.cpp"; sourceTree = SOURCE_ROOT; };
+		3B48129125C2CB8BDEBAA86C /* TP_ThirdPersonGameMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TP_ThirdPersonGameMode.h"; path = "../../Source/MyProject/TP_ThirdPerson/TP_ThirdPersonGameMode.h"; sourceTree = SOURCE_ROOT; };
+		8C5EFC0A442AB6BFEF4655DB /* MyProject */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = MyProject; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0CCB07CD07761F34E8782202 = {
+		9F71460792FA70C07C469480 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,44 +71,46 @@
 				D3A306D004246B47590D7C95 /* MyProjectGameMode.cpp in Sources */,
 				0FD17BF84413D7C76920E400 /* MyProjectHUD.cpp in Sources */,
 				91B5199E541A57CD514C3849 /* MyProjectProjectile.cpp in Sources */,
+				31D85FB19CA29F1582E6F022 /* TP_ThirdPersonCharacter.cpp in Sources */,
+				59EB9440729CC73250F92F8B /* TP_ThirdPersonGameMode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXContainerItemProxy section */
-		5AACFC86C15B542C182CDC60 /* PBXContainerItemProxy */ = {
+		0CCB07CD07761F34E8782202 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 65C156C96E14F9B7AFFB4CF1 /* Project object */;
+			containerPortal = 10F29B5D59F1EAC41941EDAD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F4A5B651013E2B364CC57B4;
+			remoteGlobalIDString = CE3E28506AD33A7B69F48EF0;
 			remoteInfo = "MyProject_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		FEA0195E61C3B2A43A305869 /* PBXTargetDependency */ = {
+		DC130CB0465EC704A32A0293 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6F4A5B651013E2B364CC57B4 /* MyProject_Build */;
-			targetProxy = 5AACFC86C15B542C182CDC60 /* PBXContainerItemProxy */;
+			target = CE3E28506AD33A7B69F48EF0 /* MyProject_Build */;
+			targetProxy = 0CCB07CD07761F34E8782202 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		A66B889ABBA4B6213A43C6D6 = {
+		C8D8264A718C165650656881 = {
 			isa = PBXGroup;
 			children = (
-				F73E242AC24F3BE666E2CE1C /* Source */,
-				0247539D10CA3B16490A3C55 /* Config */,
+				3B74D0594B3A17F3D7F6AC53 /* Source */,
+				C2DCC80A005B7BF208E265EB /* Config */,
 				10E4841AB4578BB4EF66F8B7 /* MyProject.uproject */,
-				DC130CB0465EC704A32A0293 /* Products */,
+				A6466C85413AAF0CE11C017B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F73E242AC24F3BE666E2CE1C = {
+		3B74D0594B3A17F3D7F6AC53 = {
 			isa = PBXGroup;
 			children = (
-				0CC35AC800CBF8C63D7F6D04 /* MyProject */,
+				758C104A13034D7010EE7DBD /* MyProject */,
 				940AC694D607EE88F16DFF10 /* MyProject.Target.cs */,
 				6EF1EB4E659A8BF798C986A9 /* MyProjectEditor.Target.cs */,
 			);
@@ -106,9 +118,10 @@
 			path = "Source";
 			sourceTree = "<group>";
 		};
-		0CC35AC800CBF8C63D7F6D04 = {
+		758C104A13034D7010EE7DBD = {
 			isa = PBXGroup;
 			children = (
+				4A6643451314120F19B7B35C /* TP_ThirdPerson */,
 				6A0FC90343C64361B250D39E /* MyProject.Build.cs */,
 				AD99A5AB68A66127118FC9F5 /* MyProject.cpp */,
 				6D7D1606C99F347039B956AA /* MyProject.h */,
@@ -125,7 +138,20 @@
 			path = "Source/MyProject";
 			sourceTree = "<group>";
 		};
-		0247539D10CA3B16490A3C55 = {
+		4A6643451314120F19B7B35C = {
+			isa = PBXGroup;
+			children = (
+				FEB1D80224CEA851AB30A402 /* TP_ThirdPerson.h */,
+				5F0075BCBC6ABE073AFE8865 /* TP_ThirdPersonCharacter.cpp */,
+				850D468E2EEF2D17C0B6A223 /* TP_ThirdPersonCharacter.h */,
+				E6C138B25D6CF4720B5837AF /* TP_ThirdPersonGameMode.cpp */,
+				3B48129125C2CB8BDEBAA86C /* TP_ThirdPersonGameMode.h */,
+			);
+			name = "TP_ThirdPerson";
+			path = "Source/MyProject/TP_ThirdPerson";
+			sourceTree = "<group>";
+		};
+		C2DCC80A005B7BF208E265EB = {
 			isa = PBXGroup;
 			children = (
 				9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */,
@@ -138,10 +164,10 @@
 			path = "Config";
 			sourceTree = "<group>";
 		};
-		DC130CB0465EC704A32A0293 /* Products */ = {
+		A6466C85413AAF0CE11C017B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C200AB93930D99258BDFE6BD /* MyProject */,
+				8C5EFC0A442AB6BFEF4655DB /* MyProject */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,10 +175,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		6F4A5B651013E2B364CC57B4 /* MyProject_Build */ = {
+		CE3E28506AD33A7B69F48EF0 /* MyProject_Build */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/MyProject.uproject\" -buildscw";
-			buildConfigurationList = AEC5A8D8CEC270D1C3B89B60 /* Build configuration list for PBXLegacyTarget "MyProject_Build" */;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/MyProject.uproject\" -buildscw";
+			buildConfigurationList = 9DE91AC32392ED63F10A24E7 /* Build configuration list for PBXLegacyTarget "MyProject_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Users/Shared/Epic Games/UE_4.19/Engine/Build/BatchFiles/Mac/Build.sh";
@@ -166,28 +192,28 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		487B68E45D89A8BC28C3B81C /* MyProject */ = {
+		02B61C31EFDBEE6EAE31D8DE /* MyProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4BC35B160AB4B693323EF89 /* Build configuration list for PBXNativeTarget "MyProject" */;
+			buildConfigurationList = A66B889ABBA4B6213A43C6D6 /* Build configuration list for PBXNativeTarget "MyProject" */;
 			buildPhases = (
 			);
 			dependencies = (
-				FEA0195E61C3B2A43A305869 /* PBXTargetDependency */,
+				DC130CB0465EC704A32A0293 /* PBXTargetDependency */,
 			);
 			name = "MyProject";
 			passBuildSettingsInEnvironment = 1;
 			productName = "MyProject";
-			productReference = "C200AB93930D99258BDFE6BD";
+			productReference = "8C5EFC0A442AB6BFEF4655DB";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		181F112C9732DD7BC53F1676 /* MyProject_Index */ = {
+		62BCC0797442A3C5762BFEC9 /* MyProject_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFEF1C044928FCF6A9F6E5CE /* Build configuration list for PBXNativeTarget "MyProject_Index" */;
+			buildConfigurationList = 4DCEC9143DA79897D00C6C5A /* Build configuration list for PBXNativeTarget "MyProject_Index" */;
 			buildPhases = (
-				0CCB07CD07761F34E8782202 /* Sources */,
+				9F71460792FA70C07C469480 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -199,38 +225,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		65C156C96E14F9B7AFFB4CF1 /* Project object */ = {
+		10F29B5D59F1EAC41941EDAD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					487B68E45D89A8BC28C3B81C = {
+					02B61C31EFDBEE6EAE31D8DE = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 02B61C31EFDBEE6EAE31D8DE /* Build configuration list for PBXProject "MyProject" */;
+			buildConfigurationList = 13C1072750C87971EA507654 /* Build configuration list for PBXProject "MyProject" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = A66B889ABBA4B6213A43C6D6;
-			productRefGroup = DC130CB0465EC704A32A0293;
+			mainGroup = C8D8264A718C165650656881;
+			productRefGroup = A6466C85413AAF0CE11C017B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			487B68E45D89A8BC28C3B81C /* MyProject */,
-			6F4A5B651013E2B364CC57B4 /* MyProject_Build */,
-			181F112C9732DD7BC53F1676 /* MyProject_Index */,
+			02B61C31EFDBEE6EAE31D8DE /* MyProject */,
+			CE3E28506AD33A7B69F48EF0 /* MyProject_Build */,
+			62BCC0797442A3C5762BFEC9 /* MyProject_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		8C5EFC0A442AB6BFEF4655DB /* "DebugGame" */ = {
+		CB9F528D2A975DAD5985800A /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -762,7 +788,7 @@
 			};
 			name = "DebugGame";
 		};
-		4DCEC9143DA79897D00C6C5A /* "DebugGame Editor" */ = {
+		CAC01F13D3E8A920F551471A /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1294,7 +1320,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		A6466C85413AAF0CE11C017B /* "Development" */ = {
+		9A7199D0E43A633CF9A28BAA /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1826,7 +1852,7 @@
 			};
 			name = "Development";
 		};
-		450FC455F5A8045FB2EBBAA1 /* "Development Editor" */ = {
+		0247539D10CA3B16490A3C55 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2358,7 +2384,7 @@
 			};
 			name = "Development Editor";
 		};
-		8729ED8388900E0964258B34 /* "Shipping" */ = {
+		F472E69AE907DF82DA4E8484 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2890,7 +2916,7 @@
 			};
 			name = "Shipping";
 		};
-		CE3E28506AD33A7B69F48EF0 /* "DebugGame" */ = {
+		5CF430AFA06973ACD7AAAA00 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2901,14 +2927,14 @@
 				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/Mac/MyProject-Mac-DebugGame-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/IOS/MyProject-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/IOS/MyProject.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/Mac/MyProject-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/IOS/MyProject-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/IOS/MyProject.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2916,7 +2942,7 @@
 			};
 			name = "DebugGame";
 		};
-		10F29B5D59F1EAC41941EDAD /* "DebugGame Editor" */ = {
+		D207B8B0802058703A8EC77D /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -2931,7 +2957,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		9F71460792FA70C07C469480 /* "Development" */ = {
+		FB259764423DB6AC7B84288E /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2942,14 +2968,14 @@
 				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/Mac/MyProject-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/IOS/MyProject-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/IOS/MyProject.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/Mac/MyProject-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/IOS/MyProject-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/IOS/MyProject.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2957,7 +2983,7 @@
 			};
 			name = "Development";
 		};
-		E822E24ABF53221AF13CAA9E /* "Development Editor" */ = {
+		0CC35AC800CBF8C63D7F6D04 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -2972,7 +2998,7 @@
 			};
 			name = "Development Editor";
 		};
-		88F18CC94299AC96DBC777B7 /* "Shipping" */ = {
+		DF0FCC07E18A95FA25C0EAFB /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2983,14 +3009,14 @@
 				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/Mac/MyProject-Mac-Shipping-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/IOS/MyProject-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/IOS/MyProject.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/Mac/MyProject-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/IOS/MyProject-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/IOS/MyProject.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2998,7 +3024,7 @@
 			};
 			name = "Shipping";
 		};
-		9DE91AC32392ED63F10A24E7 /* "DebugGame" */ = {
+		450FC455F5A8045FB2EBBAA1 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3008,7 +3034,7 @@
 			};
 			name = "DebugGame";
 		};
-		13C1072750C87971EA507654 /* "DebugGame Editor" */ = {
+		8729ED8388900E0964258B34 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3018,7 +3044,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		CB9F528D2A975DAD5985800A /* "Development" */ = {
+		948E2EA0E131A1C0B135E817 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3028,7 +3054,7 @@
 			};
 			name = "Development";
 		};
-		CAC01F13D3E8A920F551471A /* "Development Editor" */ = {
+		198BEA2C494128B1C0119D99 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3038,7 +3064,7 @@
 			};
 			name = "Development Editor";
 		};
-		9A7199D0E43A633CF9A28BAA /* "Shipping" */ = {
+		1C10CC6AB18003496DEC37D6 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3048,7 +3074,7 @@
 			};
 			name = "Shipping";
 		};
-		62BCC0797442A3C5762BFEC9 /* "DebugGame" */ = {
+		E822E24ABF53221AF13CAA9E /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3059,14 +3085,14 @@
 				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/Mac/MyProject-Mac-DebugGame-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/IOS/MyProject-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/IOS/MyProject.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/Mac/MyProject-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/IOS/MyProject-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/IOS/MyProject.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3074,7 +3100,7 @@
 			};
 			name = "DebugGame";
 		};
-		C8D8264A718C165650656881 /* "DebugGame Editor" */ = {
+		88F18CC94299AC96DBC777B7 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3089,7 +3115,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		5CF430AFA06973ACD7AAAA00 /* "Development" */ = {
+		F73E242AC24F3BE666E2CE1C /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3100,14 +3126,14 @@
 				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/Mac/MyProject-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/IOS/MyProject-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/IOS/MyProject.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/Mac/MyProject-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/IOS/MyProject-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/IOS/MyProject.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3115,7 +3141,7 @@
 			};
 			name = "Development";
 		};
-		D207B8B0802058703A8EC77D /* "Development Editor" */ = {
+		DD04AFE7F9D2CEEC01CF1EFE /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3130,7 +3156,7 @@
 			};
 			name = "Development Editor";
 		};
-		FB259764423DB6AC7B84288E /* "Shipping" */ = {
+		5A8EC7B8321BBF8E7F2A07EA /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3141,14 +3167,14 @@
 				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/Mac/MyProject-Mac-Shipping-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/IOS/MyProject-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/Intermediate/IOS/MyProject.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/Mac/MyProject-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/IOS/MyProject-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/Intermediate/IOS/MyProject.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3159,55 +3185,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02B61C31EFDBEE6EAE31D8DE /* Build configuration list for PBXProject "MyProject" */ = {
+		13C1072750C87971EA507654 /* Build configuration list for PBXProject "MyProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C5EFC0A442AB6BFEF4655DB /* "DebugGame" */,
-				4DCEC9143DA79897D00C6C5A /* "DebugGame Editor" */,
-				A6466C85413AAF0CE11C017B /* "Development" */,
-				450FC455F5A8045FB2EBBAA1 /* "Development Editor" */,
-				8729ED8388900E0964258B34 /* "Shipping" */,
+				CB9F528D2A975DAD5985800A /* "DebugGame" */,
+				CAC01F13D3E8A920F551471A /* "DebugGame Editor" */,
+				9A7199D0E43A633CF9A28BAA /* "Development" */,
+				0247539D10CA3B16490A3C55 /* "Development Editor" */,
+				F472E69AE907DF82DA4E8484 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		AEC5A8D8CEC270D1C3B89B60 /* Build configuration list for PBXLegacyTarget "MyProject_Build" */ = {
+		9DE91AC32392ED63F10A24E7 /* Build configuration list for PBXLegacyTarget "MyProject_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DE91AC32392ED63F10A24E7 /* "DebugGame" */,
-				13C1072750C87971EA507654 /* "DebugGame Editor" */,
-				CB9F528D2A975DAD5985800A /* "Development" */,
-				CAC01F13D3E8A920F551471A /* "Development Editor" */,
-				9A7199D0E43A633CF9A28BAA /* "Shipping" */,
+				450FC455F5A8045FB2EBBAA1 /* "DebugGame" */,
+				8729ED8388900E0964258B34 /* "DebugGame Editor" */,
+				948E2EA0E131A1C0B135E817 /* "Development" */,
+				198BEA2C494128B1C0119D99 /* "Development Editor" */,
+				1C10CC6AB18003496DEC37D6 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		E4BC35B160AB4B693323EF89 /* Build configuration list for PBXNativeTarget "MyProject" */ = {
+		A66B889ABBA4B6213A43C6D6 /* Build configuration list for PBXNativeTarget "MyProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE3E28506AD33A7B69F48EF0 /* "DebugGame" */,
-				10F29B5D59F1EAC41941EDAD /* "DebugGame Editor" */,
-				9F71460792FA70C07C469480 /* "Development" */,
-				E822E24ABF53221AF13CAA9E /* "Development Editor" */,
-				88F18CC94299AC96DBC777B7 /* "Shipping" */,
+				5CF430AFA06973ACD7AAAA00 /* "DebugGame" */,
+				D207B8B0802058703A8EC77D /* "DebugGame Editor" */,
+				FB259764423DB6AC7B84288E /* "Development" */,
+				0CC35AC800CBF8C63D7F6D04 /* "Development Editor" */,
+				DF0FCC07E18A95FA25C0EAFB /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		FFEF1C044928FCF6A9F6E5CE /* Build configuration list for PBXNativeTarget "MyProject_Index" */ = {
+		4DCEC9143DA79897D00C6C5A /* Build configuration list for PBXNativeTarget "MyProject_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62BCC0797442A3C5762BFEC9 /* "DebugGame" */,
-				C8D8264A718C165650656881 /* "DebugGame Editor" */,
-				5CF430AFA06973ACD7AAAA00 /* "Development" */,
-				D207B8B0802058703A8EC77D /* "Development Editor" */,
-				FB259764423DB6AC7B84288E /* "Shipping" */,
+				E822E24ABF53221AF13CAA9E /* "DebugGame" */,
+				88F18CC94299AC96DBC777B7 /* "DebugGame Editor" */,
+				F73E242AC24F3BE666E2CE1C /* "Development" */,
+				DD04AFE7F9D2CEEC01CF1EFE /* "Development Editor" */,
+				5A8EC7B8321BBF8E7F2A07EA /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 65C156C96E14F9B7AFFB4CF1 /* Project object */;
+	rootObject = 10F29B5D59F1EAC41941EDAD /* Project object */;
 }

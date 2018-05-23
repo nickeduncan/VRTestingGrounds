@@ -2,6 +2,7 @@
 	"BuildId": "3944462",
 	"Modules": 
 	{
-		"MyProject": "UE4Editor-MyProject.dylib"
+		"MyProject": "UE4Editor-MyProject-6269.dylib",
+		"TestingGroundsVR": "UE4Editor-TestingGroundsVR-2132.dylib"
 	}
 }

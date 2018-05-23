@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECT_MyProjectCharacter_generated_h
 
-#define MyProject_Source_MyProject_MyProjectCharacter_h_14_RPC_WRAPPERS
-#define MyProject_Source_MyProject_MyProjectCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define MyProject_Source_MyProject_MyProjectCharacter_h_14_INCLASS_NO_PURE_DECLS \
+#define TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_RPC_WRAPPERS
+#define TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyProjectCharacter(); \
 	friend MYPROJECT_API class UClass* Z_Construct_UClass_AMyProjectCharacter(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define MyProject_Source_MyProject_MyProjectCharacter_h_14_INCLASS \
+#define TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAMyProjectCharacter(); \
 	friend MYPROJECT_API class UClass* Z_Construct_UClass_AMyProjectCharacter(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define MyProject_Source_MyProject_MyProjectCharacter_h_14_STANDARD_CONSTRUCTORS \
+#define TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyProjectCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyProjectCharacter) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define MyProject_Source_MyProject_MyProjectCharacter_h_14_ENHANCED_CONSTRUCTORS \
+#define TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMyProjectCharacter(AMyProjectCharacter&&); \
@@ -59,7 +59,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyProjectCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyProjectCharacter)
 
 
-#define MyProject_Source_MyProject_MyProjectCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+#define TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Mesh1P() { return STRUCT_OFFSET(AMyProjectCharacter, Mesh1P); } \
 	FORCEINLINE static uint32 __PPO__FP_Gun() { return STRUCT_OFFSET(AMyProjectCharacter, FP_Gun); } \
 	FORCEINLINE static uint32 __PPO__FP_MuzzleLocation() { return STRUCT_OFFSET(AMyProjectCharacter, FP_MuzzleLocation); } \
@@ -70,31 +70,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyProjectCharacter); \
 	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(AMyProjectCharacter, L_MotionController); }
 
 
-#define MyProject_Source_MyProject_MyProjectCharacter_h_11_PROLOG
-#define MyProject_Source_MyProject_MyProjectCharacter_h_14_GENERATED_BODY_LEGACY \
+#define TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_11_PROLOG
+#define TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyProject_Source_MyProject_MyProjectCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	MyProject_Source_MyProject_MyProjectCharacter_h_14_RPC_WRAPPERS \
-	MyProject_Source_MyProject_MyProjectCharacter_h_14_INCLASS \
-	MyProject_Source_MyProject_MyProjectCharacter_h_14_STANDARD_CONSTRUCTORS \
+	TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_RPC_WRAPPERS \
+	TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_INCLASS \
+	TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MyProject_Source_MyProject_MyProjectCharacter_h_14_GENERATED_BODY \
+#define TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyProject_Source_MyProject_MyProjectCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	MyProject_Source_MyProject_MyProjectCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	MyProject_Source_MyProject_MyProjectCharacter_h_14_INCLASS_NO_PURE_DECLS \
-	MyProject_Source_MyProject_MyProjectCharacter_h_14_ENHANCED_CONSTRUCTORS \
+	TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_INCLASS_NO_PURE_DECLS \
+	TestingGroundsVR_Source_MyProject_MyProjectCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID MyProject_Source_MyProject_MyProjectCharacter_h
+#define CURRENT_FILE_ID TestingGroundsVR_Source_MyProject_MyProjectCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "487B68E45D89A8BC28C3B81C"
+               BlueprintIdentifier = "02B61C31EFDBEE6EAE31D8DE"
                BuildableName = "MyProject.app"
                BlueprintName = "MyProject"
                ReferencedContainer = "container:MyProject.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "487B68E45D89A8BC28C3B81C"
+               BlueprintIdentifier = "02B61C31EFDBEE6EAE31D8DE"
                BuildableName = "MyProject.app"
                BlueprintName = "MyProject"
                ReferencedContainer = "container:MyProject.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "487B68E45D89A8BC28C3B81C"
+               BlueprintIdentifier = "02B61C31EFDBEE6EAE31D8DE"
                BuildableName = "MyProject.app"
                BlueprintName = "MyProject"
                ReferencedContainer = "container:MyProject.xcodeproj">
@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "&quot;/Users/nduncan/learning/unreal/TestingGroundsVR/MyProject/MyProject.uproject&quot;"
+            argument = "&quot;/Users/nduncan/learning/unreal/TestingGroundsVR/TestingGroundsVR/MyProject.uproject&quot;"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
@@ -84,7 +84,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "487B68E45D89A8BC28C3B81C"
+               BlueprintIdentifier = "02B61C31EFDBEE6EAE31D8DE"
                BuildableName = "MyProject.app"
                BlueprintName = "MyProject"
                ReferencedContainer = "container:MyProject.xcodeproj">

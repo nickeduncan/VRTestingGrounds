@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECT_MyProjectGameMode_generated_h
 
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_INCLASS_NO_PURE_DECLS \
+#define TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS
+#define TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyProjectGameMode(); \
 	friend MYPROJECT_API class UClass* Z_Construct_UClass_AMyProjectGameMode(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_INCLASS \
+#define TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesAMyProjectGameMode(); \
 	friend MYPROJECT_API class UClass* Z_Construct_UClass_AMyProjectGameMode(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_STANDARD_CONSTRUCTORS \
+#define TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	MYPROJECT_API AMyProjectGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyProjectGameMode) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_ENHANCED_CONSTRUCTORS \
+#define TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	MYPROJECT_API AMyProjectGameMode(AMyProjectGameMode&&); \
@@ -59,32 +59,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyProjectGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyProjectGameMode)
 
 
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_PRIVATE_PROPERTY_OFFSET
-#define MyProject_Source_MyProject_MyProjectGameMode_h_9_PROLOG
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_GENERATED_BODY_LEGACY \
+#define TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_PRIVATE_PROPERTY_OFFSET
+#define TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_9_PROLOG
+#define TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_INCLASS \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_STANDARD_CONSTRUCTORS \
+	TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
+	TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS \
+	TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_INCLASS \
+	TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MyProject_Source_MyProject_MyProjectGameMode_h_12_GENERATED_BODY \
+#define TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_INCLASS_NO_PURE_DECLS \
-	MyProject_Source_MyProject_MyProjectGameMode_h_12_ENHANCED_CONSTRUCTORS \
+	TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
+	TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_INCLASS_NO_PURE_DECLS \
+	TestingGroundsVR_Source_MyProject_MyProjectGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID MyProject_Source_MyProject_MyProjectGameMode_h
+#define CURRENT_FILE_ID TestingGroundsVR_Source_MyProject_MyProjectGameMode_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
