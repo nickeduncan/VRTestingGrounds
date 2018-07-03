@@ -9,22 +9,22 @@
 			<string>com.Epic.Unreal</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>MyProject</string>
+				<string>TestingGroundsVR</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>MyProject</string>
+	<string>TestingGroundsVR</string>
 	<key>CFBundleExecutable</key>
-	<string>MyProject</string>
+	<string>TestingGroundsVR</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.YourCompany.MyProject</string>
+	<string>com.YourCompany.TestingGroundsVR</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>MyProject</string>
+	<string>TestingGroundsVR</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>
