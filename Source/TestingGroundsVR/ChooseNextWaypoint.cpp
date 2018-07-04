@@ -2,7 +2,7 @@
 
 #include "ChooseNextWaypoint.h"
 #include "AIController.h"
-#include "PatrolRoutes.h"
+#include "PatrolRoute.h"
 #include "BehaviorTree/BlackboardComponent.h"
 
 
@@ -10,7 +10,7 @@ EBTNodeResult::Type UChooseNextWaypoint::ExecuteTask(UBehaviorTreeComponent& Own
 {
 	// Get the patrol route
 	auto ControlledPawn = OwnerComp.GetAIOwner()->GetPawn();
-	auto PatrolRoute = ControlledPawn->FindComponentByClass<UPatrolRoutes>();
+	auto PatrolRoute = ControlledPawn->FindComponentByClass<UPatrolRoute>();
 	if (!ensure(PatrolRoute)) { EBTNodeResult::Failed; }
 
 	// Warn about empty patrol routes

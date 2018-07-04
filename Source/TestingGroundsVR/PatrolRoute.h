@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "PatrolRoutes.generated.h"
+#include "PatrolRoute.generated.h"
 
 /** 
  * A "route card" to help AI choose their next waypoint
  */
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class TESTINGGROUNDSVR_API UPatrolRoutes : public UActorComponent
+class TESTINGGROUNDSVR_API UPatrolRoute : public UActorComponent
 {
 	GENERATED_BODY()
 
