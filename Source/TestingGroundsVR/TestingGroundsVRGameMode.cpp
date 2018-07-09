@@ -2,7 +2,7 @@
 
 #include "TestingGroundsVRGameMode.h"
 #include "TestingGroundsVRHUD.h"
-#include "TestingGroundsVRCharacter.h"
+#include "Player/FirstPersonCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 ATestingGroundsVRGameMode::ATestingGroundsVRGameMode()
